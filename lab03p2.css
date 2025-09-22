@@ -1,0 +1,78 @@
+/*font*/
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*header and footer */
+.header-footer {
+  background-color: #ff00dd;
+  color: rgb(6, 27, 118);
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+/*nav styling */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background-color: #444;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #666;
+  border-radius: 5px;
+}
+
+/*main container*/
+.container {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*main content*/
+.main-content {
+  width: 70%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+/*sidebar*/
+.sidebar {
+  width: 30%;
+  background-color: #ddd;
+  padding: 20px;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+.sidebar:hover {
+  background-color: #bbb;
+}
+
+/*form*/
+#name {
+  transition: width 0.3s;
+  width: 150px;
+}
+
+#name:focus {
+  width: 250px;
+}
